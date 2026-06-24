@@ -9,4 +9,8 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  @Get('deneme')
+  getDeneme(): string{
+    return "deneme sayfası";
+  }
 }
