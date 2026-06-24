@@ -1,5 +1,5 @@
 "scripts": {
-  "build": "nest build",
+  "build": "npx nest build",
   "start": "node dist/main",
   "start:dev": "nest start --watch"
 }
